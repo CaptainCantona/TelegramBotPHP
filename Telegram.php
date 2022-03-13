@@ -7,7 +7,6 @@ if (file_exists('TelegramErrorLogger.php')) {
 /**
  * Telegram Bot Class.
  *
- * @author Gabriele Grillo .grillo@alice.it>
  */
 class Telegram
 {
@@ -876,7 +875,7 @@ class Telegram
      * <td>chat_id</td>
      * <td>Integer or String</td>
      * <td>Yes</td>
-     * <td>Unique identifier for the target chat or username of the target supergroup (in the format <code>@supergroupusername</code>)</td>
+     * <td>Unique identifier for the target chat or username of the target supergroup (in the format <code>@canlimagaza</code>)</td>
      * </tr>
      * </table>
      * \param $content the request parameters as array
@@ -902,7 +901,7 @@ class Telegram
      * <td>chat_id</td>
      * <td>Integer or String</td>
      * <td>Yes</td>
-     * <td>Unique identifier for the target chat or username of the target supergroup (in the format <code>@supergroupusername</code>)</td>
+     * <td>Unique identifier for the target chat or username of the target supergroup (in the format <code>@canlimagaza</code>)</td>
      * </tr>
      * </table>
      * \param $content the request parameters as array
@@ -3460,3 +3459,4 @@ if (!function_exists('curl_file_create')) {
         .($mimetype ? ";type=$mimetype" : '');
     }
 }
+php.debug.executablePath
