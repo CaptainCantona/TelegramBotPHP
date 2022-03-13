@@ -7,7 +7,7 @@ if (file_exists('TelegramErrorLogger.php')) {
 /**
  * Telegram Bot Class.
  *
- * @author Gabriele Grillo <gabry.grillo@alice.it>
+ * @author Gabriele Grillo .grillo@alice.it>
  */
 class Telegram
 {
@@ -82,7 +82,7 @@ class Telegram
 	const LEFT_CHAT_MEMBER = 'left_chat_member';
 	//added by @ark_1996 //end
 
-    private $bot_token = '';
+    private $bot_token = '5133946633:AAEbe4MmrKtvJ1uBJ-iPefRlbT3525KkE4E';
     private $data = [];
     private $updates = [];
     private $log_errors;
