@@ -82,7 +82,7 @@ class Telegram
 	const LEFT_CHAT_MEMBER = 'left_chat_member';
 	//added by @ark_1996 //end
 
-    private $bot_token = '5133946633:AAEbe4MmrKtvJ1uBJ-iPefRlbT3525KkE4E';
+    private $bot_token = '5133946633:AAE3qybxCP33rXG3MQz4_z9fYzM6TjpfGpg';
     private $data = [];
     private $updates = [];
     private $log_errors;
